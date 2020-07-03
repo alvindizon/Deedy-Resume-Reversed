@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Deedy - One Page Two Column Resume
 % LaTeX Template
-% Version 1.3 (22/9/2018)
+% Version 1.4 (3/7/2020)
 %
 % Original author:
 % Debarghya Das (http://debarghyadas.com)
@@ -14,6 +14,12 @@
 %
 % v1.3 repository:
 % https://github.com/ZDTaylor/Deedy-Resume-Reversed
+%
+% v1.4 author:
+% Alvin Dizon
+%
+% v1.4 repository:
+% https://github.com/alvindizon/Deedy-Resume-Reversed
 %
 % IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
 %
@@ -30,6 +36,11 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 % CHANGELOG:
+% v1.4:
+% 1. Added my personal details and work experience
+% 2. Moved "other experience" to column 2 so that projects with current company follow the relevant experience section
+% 3. Renamed "societies" to "certifications" as I am not a member of any society right now.
+%
 % v1.3:
 % 1. Removed MacFonts version as I have no desire to maintain it nor access to macOS
 % 2. Switched column ordering
@@ -78,8 +89,9 @@
 %     TITLE NAME
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\namesection{Zachary Taylor}{ %\urlstyle{same}\href{http://example.com}{example.com}| \href{http://example2.co}{example2.co}\\
-\href{mailto:zacharydtaylor1997@gmail.com}{zacharydtaylor1997@gmail.com} | \href{tel:16156635675}{615.663.5675}
+\namesection{Alvin Dizon}{ %\urlstyle{same}\href{http://example.com}{example.com}| \href{http://example2.co}{example2.co}\\
+\href{mailto:alvin.dizon91@gmail.com}{alvin.dizon91@gmail.com} | \href{tel:+639178043358}{+639178043358} |
+228 Eucalyptus St., La Marea Subdivision, San Pedro, Laguna
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -94,38 +106,25 @@
 %     EXPERIENCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Experience}
-\runsubsection{ADTRAN}
-\descript{| Advanced Development Intern }
-\location{May 2018 – Aug 2018 | Huntsville, AL}
+\section{Relevant Experience}
+\runsubsection{GHL Systems Philippines}
+\descript{| Makati }
+\location{Mar 2019 – Present | Senior Software Engineer - Consultant}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Developed a cloud-based solution to automate and enhance the engineering process for network installation using AWS and Python.
-\item Worked with other teams to create a system to collect and visualize telemetry data of network elements in real time using AWS, Python, and DOMO.
-\item Consulted with other teams to jump start cloud-technology adoption and solutions throughout the company.
-\item Contributed to initial planning for optics-alignment system utilizing AWS, reinforcement learning, and an IoT architecture.
+\item Leads development of loyalty and internal applications for Android payment terminals.
+\item Conducts analysis and design for new projects intended for Android payment terminals.
+\item Interviews job applicants and assists other developers with their concerns regarding Android development. 
+\item Maintains the company's internal version control system instance and its artifact repository.
 \end{tightemize}
-\sectionsep
-
-\runsubsection{ExxonMobil IT}
-\descript{| Intern }
-\location{Feb 2017 – Nov 2017 | The Woodlands, TX}
+\location{Jun 2015 – Mar 2019 | Software Engineer}
 \begin{tightemize}
-\item Coordinated with multiple departments to lead a software product evaluation resulting in a fit-for-purpose verdict and provided a recommendation on moving forward.
-\item Organized meetings with the vendor to receive in-depth product information and answers to cross-departmental questions.
-\item Participated on the Web Development Taskforce to provide AngularJS sites to internal customers.
-\item Participated in an internal CodeJam to prototype a blockchain application for managing a model supply-chain.
-\item Worked with a team to plan executive visit and team-building exercise for 200 employees.
-\end{tightemize}
-\sectionsep
-
-\runsubsection{Mississippi State University ITS}
-\descript{| Assistant Support Specialist }
-\location{Aug 2015 – Oct 2016 | Mississippi State, MS}
-\begin{tightemize}
-\item Interacted with clients to assess their problems and implement a solution in an efficient, friendly manner.
-\item Prepared workstations and laptops for future use by company employees.
-\item Created scripts to automate common tasks and increase productivity.
+\item Developed loyalty and banking applications for Ingenico terminals.
+\item Conducted analysis and design for loyalty and banking projects.
+\item Participated in EMV certification for various acquirers.
+\item Promoted the use of Git among the company's developers, helped conduct trainings in the use of Git.
+\item Lead efforts to study Android development and started development for Android devices.
+\item Awarded Employee of the Year in 2017, part of Team of the Year in 2015.
 \end{tightemize}
 \sectionsep
 
@@ -134,87 +133,45 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Projects}
-\runsubsection{State Space Robotics Team}
-\descript{| Path-Planning Lead}
-\location{Jan 2018 – Present | Mississippi State, MS}
+\runsubsection{Phoenix Fleet App}
+\descript{| Developer}
 \begin{tightemize}
-\item Spearhead the development effort for the path-planning functionality of a team of three robots.
-\item ROS provides movement servers and the planning is being implemented in Python to allow for fully-autonomous operation.
+\item Lead the development of an Android application for PAX A920 devices, intended for Phoenix Petroleum's fleet card program.
 \end{tightemize}
 \sectionsep
 
-\runsubsection{Chit Chat}
-\descript{| Class Project for Distributed Client-Server Programming}
-\location{Jan 2018 – May 2018 | Mississippi State, MS}
+\runsubsection{Wrangler Loyalty}
+\descript{| Developer}
 \begin{tightemize}
-\item Lead the development of \textbf{\href{https://github.com/ZDTaylor/ChitChat}{Chit Chat}}, an anonymous chat application created as a class project.
-\item Chit Chat provides real-time communication while utilizing a PHP backend and AngularJS frontend.
+\item Developed an Android application for PAX A920 devices, intended for processing Wrangler's product-based loyalty program
 \end{tightemize}
 \sectionsep
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     RESEARCH
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\runsubsection{OG Card for Krispy Kreme}
+\descript{| Developer}
+\begin{tightemize}
+\item Developed an Android application for PAX A920 devices, intended for processing Krispy Kreme's rewards card transactions.
+\end{tightemize}
+\sectionsep
 
-% \section{Research}
-% \runsubsection{Cornell Robot Learning Lab}
-% \descript{| Researcher}
-% \location{Jan 2014 – Jan 2015 | Ithaca, NY}
-% Worked with \textbf{\href{http://www.cs.cornell.edu/~ashesh/}{Ashesh Jain}} and \textbf{\href{http://www.cs.cornell.edu/~asaxena/}{Prof Ashutosh Saxena}} to create \textbf{PlanIt}, a tool which  learns from large scale user preference feedback to plan robot trajectories in human environments.
-% \sectionsep
+\runsubsection{GHL Launcher}
+\descript{| Developer}
+\begin{tightemize}
+\item Lead the development of an Android app that replaces the stock Launcher app shipped with the PAX A920.
+\item Aside from displaying available apps, this app sends data received via serial/card entry to other apps
+\end{tightemize}
+\sectionsep
 
-% \runsubsection{Cornell Phonetics Lab}
-% \descript{| Head Undergraduate Researcher}
-% \location{Mar 2012 – May 2013 | Ithaca, NY}
-% Led the development of \textbf{QuickTongue}, the first ever breakthrough tongue-controlled game with \textbf{\href{http://conf.ling.cornell.edu/~tilsen/}{Prof Sam Tilsen}} to aid in Linguistics research.
-% \sectionsep
+\runsubsection{Banking apps}
+\descript{| Developer}
+\begin{tightemize}
+\item Debugged, tested, and improved various EMV applications running on Ingenico payment terminals
+\item Apps were intended for companies such as Metrobank, BDO (for S\&R Shopping), Bancnet, RCBC, and Global Payments
+\item Participated in EMV certification for various acquirers such as JCB, CUP, FIME, VISA, etc.
+\end{tightemize}
+\sectionsep
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     COMMUNITY SERVICE
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% \section{Community Service}
-
-% \begin{tabular}{rll}
-% 2013 -- 2018    & Tennessee     & St. Baldrick's Foundation\\
-% 2014 -- 2017	& Tennessee     & American Cancer Society's Hope Lodge\\
-% 2013 -- 2015    & Tennessee     & Habitat for Humanity\\
-% 2011 -- 2015    & Tennessee     & Special Olympics\\
-% \end{tabular}
-% \sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     SOCIETIES
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% \section{Societies}
-
-% \begin{tabular}{rll}
-% 2018 -- 2018    & National      & Association of Computing Machinery (ACM)\\
-% 2017 -- 2019	& National      & Scrum Alliance Certified ScrumMaster\\
-% 2015 -- 2019    & University    & Shackouls Honors College\\
-% \end{tabular}
-% \sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     AWARDS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% \section{Awards}
-% \begin{tabular}{rll}
-% 2015        & 99\textsuperscript{th} percentile & National Merit Scholarship Finalist\\
-% \end{tabular}
-% \sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     PUBLICATIONS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% \section{Publications}
-% \renewcommand\refname{\vskip -1.5cm} % Couldn't get this working from the .cls file
-% \bibliographystyle{abbrv}
-% \bibliography{publications}
-% \nocite{*}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -232,12 +189,9 @@
 
 \section{Education}
 
-\subsection{Mississippi State University}
-\descript{Bachelor of Science in Computer Science with minors in Mathematics and Statistics}
-\location{Expected Dec 2019 | Starkville, MS}
-% College of Engineering \\
-Dean's List (All Semesters) \\
-\location{ Cum. GPA: 4.0 / 4.0}
+\subsection{Ateneo de Manila University}
+\descript{Bachelor of Science in Electronics and Communications Engineering, minor in Japanese}
+\location{Mar 2013 | Quezon City, PH}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -246,48 +200,47 @@ Dean's List (All Semesters) \\
 
 \section{Skills}
 \subsection{Programming}
-\location{3+ years:}
-Python \textbullet{} C/C++ \\
-\location{1+ years:}
-PHP \textbullet{} JavaScript \\
-\location{0+ years:}
-Matlab \textbullet{} R \textbullet{} SAS \\
+\location{Languages:}
+Java \textbullet{} C \textbullet{} Kotlin\\
+\location{Frameworks:}
+Android Jetpack \textbullet{} Dagger2 \textbullet{} Retrofit\\
+RxJava2 \textbullet{} Coroutines \\
+\location{Design Patterns:}
+MVVM \textbullet{} MVC \\
 \sectionsep
 
 \subsection{Technology}
-Git/Github \textbullet{} AWS \textbullet{} Linux \\
-UNIX \textbullet{} Windows \textbullet{} ROS \\
-Artificial Intelligence \textbullet{} Automation \\
+Git/Gitlab \textbullet{} Nexus Repository \textbullet{} Linux \\
+UNIX \textbullet{} Windows \textbullet{} EMV \\
+ISO 8583 \textbullet{} Contactless payments \\
+Figma \textbullet{} Adobe XD \\
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     COURSEWORK
+%     OTHER EXPERIENCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Coursework}
-\subsection{Graduate}
-Analysis of Algorithms
+\section{OTHER EXPERIENCE}
+\subsection{Technology Enabler Designers Philippines}
+{\footnotesize \textit{\textbf{(Firmware Engineer, Dec `14 - May `15) }}} \\
+\textbullet{} Developed test applications demonstrating NFC, WiFi, and Bluetooth technologies using an embedded development board.
 \sectionsep
 
-\subsection{Undergraduate}
-Artificial Intelligence \\
-{\footnotesize \textit{\textbf{(Teaching Assistant) }}} \\
-AI Robotics \\
-Operating Systems I \\
-Calculus I-IV \\
-Data Analysis I \\
-Introduction to Probability \\
+\subsection{Schneider Electric}
+{\footnotesize \textit{\textbf{(Graduate Trainee, Jun `14 - Dec `14) }}} \\
+\textbullet{} Observed Field Service Engineers in maintaining and repairing Schneider Electric products.
+\textbullet{} Assisted Service Sales Engineers in site visits, preparing quotations and purchase orders.
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     Societies
+%     Trainings & Certifications
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Societies}
-Association for Computing Machinery (ACM)\\
-Scrum Alliance Certified ScrumMaster\\
-Shackouls Honors College\\
-National Merit Scholarship Finalist \\
+\section{Certifications}
+\href{https://ude.my/UC-XBH10ZQR}{\bf Android Architecture Masterclass } \\
+\href{https://ude.my/UC-HJHILDQ1}{\bf Android Dependency Injection with Dagger 2 } \\
+\href{https://ude.my/UC-3290009d-86e3-49ba-82cf-2ea5b2a2b2a6}{\bf  Android Multithreading Masterclass } \\
+JLPT N4 (12B2060101-40328) \\
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -295,9 +248,8 @@ National Merit Scholarship Finalist \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Links}
-Github:// \href{https://github.com/ZDTaylor}{\bf ZDTaylor} \\
-LinkedIn://  \href{https://www.linkedin.com/in/zacharydtaylor1}{\bf zacharydtaylor1} \\
-Career Center:// \href{https://msstate-csm.symplicity.com/profiles/zachary.taylor3}{\bf zachary.taylor3}
+Github:// \href{https://github.com/alvindizon}{\bf alvindizon} \\
+LinkedIn://  \href{https://www.linkedin.com/in/alvindizon}{\bf alvindizon} \\
 \sectionsep
 
 \end{minipage}
