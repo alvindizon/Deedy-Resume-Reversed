@@ -46,7 +46,7 @@ Last Updated on \today
 } \\[5pt]
 \centering{
 \color{headings}
-\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{14pt}\selectfont #2}
+\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{10pt}{14pt}\selectfont #2}
 \noindent\makebox[\linewidth]{\color{headings}\rule{\paperwidth}{0.4pt}}
 \vspace{-15pt}
 }
