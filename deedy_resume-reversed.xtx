@@ -202,18 +202,20 @@
 \subsection{Programming}
 \location{Languages:}
 Java \textbullet{} C \textbullet{} Kotlin\\
-\location{Frameworks:}
+\location{Frameworks/Patterns:}
 Android Jetpack \textbullet{} Dagger2 \textbullet{} Retrofit\\
 RxJava2 \textbullet{} Coroutines \\
-\location{Design Patterns:}
 MVVM \textbullet{} MVC \\
 \sectionsep
 
 \subsection{Technology}
-Git/Gitlab \textbullet{} Nexus Repository \textbullet{} Linux \\
-UNIX \textbullet{} Windows \textbullet{} EMV \\
-ISO 8583 \textbullet{} Contactless payments \\
-Figma \textbullet{} Adobe XD \\
+Gitlab \textbullet{} Nexus Repository \textbullet{} Ubuntu \\
+Windows \textbullet{} EMV \textbullet{} ISO 8583\\
+Contactless payments \textbullet{} Figma \textbullet{} Adobe XD \\
+\sectionsep
+
+\subsection{Languages}
+English \textbullet{} Filipino (Native) \textbullet{} Japanese (JLPT N4) \\
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -228,8 +230,7 @@ Figma \textbullet{} Adobe XD \\
 
 \subsection{Schneider Electric}
 {\footnotesize \textit{\textbf{(Graduate Trainee, Jun `14 - Dec `14) }}} \\
-\textbullet{} Observed Field Service Engineers in maintaining and repairing Schneider Electric products.
-\textbullet{} Assisted Service Sales Engineers in site visits, preparing quotations and purchase orders.
+\textbullet{} Observed and assisted Field Service Engineers and Service Sales Engineers.
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
