@@ -204,8 +204,7 @@
 Java \textbullet{} C \textbullet{} Kotlin\\
 \location{Frameworks/Patterns:}
 Android Jetpack \textbullet{} Dagger2 \textbullet{} Retrofit\\
-RxJava2 \textbullet{} Coroutines \\
-MVVM \textbullet{} MVC \\
+RxJava2 \textbullet{} Coroutines \textbullet{} MVVM \textbullet{} MVC \\
 \sectionsep
 
 \subsection{Technology}
@@ -225,7 +224,7 @@ English \textbullet{} Filipino (Native) \textbullet{} Japanese (JLPT N4) \\
 \section{Other Experience}
 \subsection{TEDPI}
 {\footnotesize \textit{\textbf{(Firmware Engineer, Dec `14 - May `15) }}} \\
-\textbullet{} Developed test applications demonstrating NFC, WiFi, and Bluetooth technologies using an embedded development board.
+\textbullet{} Developed test applications demonstrating NFC, WiFi, and Bluetooth technologies.
 \sectionsep
 
 \subsection{Schneider Electric}
@@ -238,6 +237,7 @@ English \textbullet{} Filipino (Native) \textbullet{} Japanese (JLPT N4) \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Certifications}
+\href{https://ude.myUC-d72ba3eb-f168-40f8-bcda-c47b7dab62f2}{\textbf{Android Unit Testing and Test Driven Development}} \\
 \href{https://ude.my/UC-XBH10ZQR}{\textbf{Android Architecture Masterclass }} \\
 \href{https://ude.my/UC-HJHILDQ1}{\textbf{Android Dependency Injection with Dagger 2}} \\
 \href{https://ude.my/UC-3290009d-86e3-49ba-82cf-2ea5b2a2b2a6}{\textbf{Android Multithreading Masterclass}} \\
